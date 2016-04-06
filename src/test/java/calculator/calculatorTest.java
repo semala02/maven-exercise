@@ -117,5 +117,14 @@ public class calculatorTest {
 		   System.out.println("Division 3:"+ cl.division(a, b));
 		   assertEquals("Felaktig division",a/b,cl.division(a, b),d);
 	}
+	@Test
+	public void division4() {
+		   double a=31.23;
+		   double b=0.32;
+		   double d=0.01;
+		   calculator cl = new calculator();
+		   System.out.println("Division 3:"+ cl.division(a, b));
+		   assertEquals("Felaktig division",a/b,cl.division(a, b),d);
+	}
 
 }
